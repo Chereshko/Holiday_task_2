@@ -1,0 +1,120 @@
+#teams{
+	padding: 100px 0 50px;
+}
+
+*{
+	max-width: 100%;
+}
+
+.cardItem{
+	
+/*	margin: 0 0 0 20%;*/
+	width: 100%;
+/*	max-width: 300px;*/
+	min-height:615px;
+	max-height:615px;
+	margin-bottom: 20px;
+/*
+	padding:0 15px;
+	min-width: 200px;
+*/
+	
+}
+
+.card-wrapper{
+		align-items: center;
+	}
+
+.cards-wrapper{
+		align-items: center;
+	}
+
+.pictureContainer img{
+	width:100%;
+}
+
+.information{
+	margin-top: 20px;
+	min-height:70px;
+	max-height:70px;
+}
+.cardItem h4{
+	font-weight: 400;
+	font-size:22px;
+	text-align: center;
+}
+
+.cardItem h5{
+	color: #e84545;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.description{
+	margin-bottom: 10px;
+	min-height:150px;
+	max-height:150px;
+}
+
+.description p{
+	text-align: center;
+	font-size:14px;
+}
+
+.socialNetworks{
+	padding-top: 30px;
+}
+
+.socialNetworks ul{
+	padding-left: 20px;
+}
+
+.socialNetworks li{
+	display:inline-block;
+	text-decoration: none;
+}
+.socialNetworks i{
+	border: 2px solid lightgray;
+	color:lightgray;
+	margin-right: 2px;
+}
+
+@media (max-width:575px) and (min-width:350px){
+	.card-wrapper{
+		align-items: center;
+	}
+
+}
+
+@media (max-width:991px){
+	.socialNetworks{
+		padding-top: 0;
+	}
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

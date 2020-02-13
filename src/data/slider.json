@@ -1,0 +1,43 @@
+// JSON Document
+
+//just structure
+
+[
+  {
+
+    "comment": ";sldfk; lksdl flsfd",
+    "author": {
+      "name": "Name",
+      "surname": "Surname",
+      "position": "Test",
+      "profilePicture": "testsetse.png"
+    }
+  },
+  {
+    "imageUrl": "sdfsdfsdf",
+    "comment": ";sldfk; lksdl flsfd",
+    "author": {
+      "name": "Name",
+      "surname": "Surname",
+      "position": "Test"
+    }
+  },
+  {
+    "imageUrl": "sdfsdfsdf",
+    "comment": ";sldfk; lksdl flsfd",
+    "author": {
+      "name": "Name",
+      "surname": "Surname",
+      "position": "Test"
+    }
+  },
+  {
+    "imageUrl": "sdfsdfsdf",
+    "comment": ";sldfk; lksdl flsfd",
+    "author": {
+      "name": "Name",
+      "surname": "Surname",
+      "position": "Test"
+    }
+  }
+]

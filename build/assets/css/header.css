@@ -1,0 +1,240 @@
+*{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+*{
+	box-sizing: border-box;
+	max-width: 100%;
+}
+.header{
+	background-image: url(../img/banner.jpg);
+	padding-bottom: 50px;
+}
+.header h1{
+	position:relative;
+	font-size: 65px;
+	margin:100px 0 30px ;
+}
+.header h3{
+	position:relative;
+	font-size: 22px;
+	margin:10px 0 30px ;
+}
+.button{
+	background-color: #e84545;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 2px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding:15px 40px;
+  margin: 50px auto 100px;
+}
+  .button:hover, .button:focus {
+    background-color: #e52e2e;
+    color: #fff; 
+}
+.main-nav{
+	text-transform: uppercase;
+	visibility: visible;
+	
+}
+hr{
+	color:white;
+	background-color: white;
+	
+}
+
+.main-nav > li{
+	
+}
+.main-nav > li:hover{
+	background-color: darkblue;
+	color:crimson;
+}
+.mobile-navigation{
+	position: fixed;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    visibility: hidden;
+    opacity: 0;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+	text-align:center;
+}
+
+.mobile-navigation{
+	display: block;
+/*	float: right;*/
+}
+
+.mobile-navigation .closed{
+	visibility: hidden;
+}
+
+.mobile-navigation.open {
+    opacity: 0.9;
+    visibility: visible;
+
+    transition: opacity 0.5s;
+}
+
+
+.mobile-navigation .primary-nav {
+    position: relative;
+    top: 45%;
+    transform: translateY(-45%);
+	background-color: black;
+	color: white;
+	font-size: 25px;
+	font-weight: 700;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+	
+	line-height: 35.7143px;
+	text-decoration: none;
+	text-size-adjust:100%;
+		
+}
+
+.mobile-navigation ul{
+	padding-left: 0;
+}
+
+.mobile-navigation li {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+.mobile-navigation a {
+    display: block;
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+	color: rgba(255, 255, 255, 0.75);
+    
+    font-weight: 700;
+/*    margin-left: 40px;*/
+    text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+.nav-button {
+    border-radius: 50%;
+	background-color: #e84545;
+    height: 44px;
+    overflow: hidden;
+    position: fixed;
+    right: 5%;
+    text-indent: 100%;
+    top: 20px;
+    white-space: nowrap;
+    width: 44px;
+    z-index: 99999;
+	padding: 0;
+   	visibility: hidden;
+    transition: all 0.3s;
+}
+
+.nav-button:before, .nav-toggle:after {
+    
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+    transform: translateZ(0);
+    
+    backface-visibility: hidden;
+    
+    transition-property: transform;
+}
+
+.nav-button:after {
+    background-color: #e84545;
+    
+    transform: scale(0);
+    
+    transition-duration: 0s;
+}
+
+
+
+.off div{
+	
+	display: block;
+	height:4px;
+	width: 25px;
+	margin:13px 10px -11px;
+	padding: 0;
+	background-color: white;
+	border: 1px solid white;
+	
+}
+
+.on div:before, .on div:after{
+position: absolute;
+left: 20px;
+top: 2px;
+content: "";
+height: 40px;
+width: 4px;
+background-color: white;
+}
+
+.on div:before {
+transform: rotate(45deg);
+}
+
+.on div:after {
+transform: rotate(-45deg);
+}
+
+.on div .cross:before {
+transform: rotate(-45deg);
+}
+
+
+
+@media (max-width:1012px){
+	.main-nav{
+		visibility: hidden;
+	}
+	.nav-button{
+		visibility: visible;
+	}
+}
+
+@media(max-width:450px){
+	.main-nav{
+		max-height: 60px;
+	}
+	.header h1{
+	position:relative;
+	font-size: 35px;
+	margin:30px 0 20px ;
+}
+.header h3{
+	position:relative;
+	font-size: 20px;
+	margin:10px 0 30px ;
+}
+	
+	.header{
+		padding-bottom: 0;
+	}
+}
+
