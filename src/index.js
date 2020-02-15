@@ -1,2 +1,2 @@
-import './components/UserListLoader'
-import './components/SliderLoader'
+import './components/userListLoader'
+//import './components/slider'
