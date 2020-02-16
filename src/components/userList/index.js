@@ -7,6 +7,7 @@ import userCard from '../userCard';
 */
 
 export default function createUserList(team){
+    console.log('userList is working');
     const teamContainer = document.createElement('div');
     teamContainer.classList.add('row');
     teamContainer.setAttribute('style', 'margin:0');

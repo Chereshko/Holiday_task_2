@@ -11,12 +11,14 @@ import createPersonContactsElem from './contacts.js'
 */
 
 export default function(employee){
+
     const personWrapperOuter = document.createElement('div');
-    personWrapperOuter.classList.add('col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 card-wrapper');
+    personWrapperOuter.className ='col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 card-wrapper';
     const personWrapperInner = document.createElement('div');
     personWrapperInner.classList.add('cardItem');
     const pictureContainer = document.createElement('div');
     pictureContainer.classList.add('pictureContainer');
+    console.log('UserCard is working');
     pictureContainer.appendChild(createPersonPhotoElem(employee));
     personWrapperInner.appendChild(pictureContainer);
     const information = document.createElement('div');
