@@ -3,7 +3,7 @@
   {
     "name": "Ruth",
     "surname": "Wood",
-	 "photoPath":"assets/images/team-1.jpg",
+	 "photoPath":"../assets/img/team-1.jpg",
     "position": "Founder, CEO",
     "info": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [
@@ -17,7 +17,7 @@
   {
     "name": "Timothy",
     "surname": "Reed",
-	"photoPath":"assets/images/team-2.jpg",
+	"photoPath":"../assets/img/team-2.jpg",
     "position": "Founder, CEO",
     "info": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [
@@ -31,7 +31,7 @@
   {
     "name": "Victoria",
     "surname": "Valdez",
-	"photoPath":"assets/images/team-3.jpg",
+	"photoPath":"../assets/img/team-3.jpg",
     "position": "Founder, CEO",
     "info": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [
@@ -45,7 +45,7 @@
 	{
     "name": "Beverly",
     "surname": "Little",
-	"photoPath":"assets/images/team-4.jpg",
+	"photoPath":"../assets/img/team-4.jpg",
     "position": "Founder, CEO",
     "info": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [

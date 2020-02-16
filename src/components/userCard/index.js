@@ -16,13 +16,10 @@ export default function(employee){
     personWrapperOuter.className ='col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 card-wrapper';
     const personWrapperInner = document.createElement('div');
     personWrapperInner.classList.add('cardItem');
-    const pictureContainer = document.createElement('div');
-    pictureContainer.classList.add('pictureContainer');
-    console.log('UserCard is working');
-    pictureContainer.appendChild(createPersonPhotoElem(employee));
-    personWrapperInner.appendChild(pictureContainer);
+    personWrapperInner.appendChild(createPersonPhotoElem(employee));
     const information = document.createElement('div');
     information.classList.add('information');
+    console.log('UserCard is working');
     information.appendChild(createPersonFullNameElem(employee));
     information.appendChild(createPersonPositionElem(employee));
     personWrapperInner.appendChild(information);
